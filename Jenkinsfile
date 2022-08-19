@@ -1,3 +1,5 @@
-// Jenkinsfile
-@Library('samy') _
-welcomeJob ‘lambdatest’
+@Library('samy@master') _
+node
+(
+  welcomeJob("Indiabees")
+)
