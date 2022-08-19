@@ -1,3 +1,4 @@
-def call(String name = 'User') {
-		echo "Welcome, ${name}."
+def call(def UsernameInputvalue)
+{
+  echo "My Name is ${UsernameInputvalue}"
 }
